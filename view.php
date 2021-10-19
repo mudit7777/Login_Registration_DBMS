@@ -28,7 +28,7 @@
   while($res=mysqli_fetch_array($query)){
   ?>
   <tr style="text-align: center">
-    <td> <?php  echo$res['id']; ?> </td>
+    <td> <?php echo $res['id']; ?> </td>
     <td> <?php echo $res['username']; ?> </td>
     <td> <?php echo $res['email']; ?> </td>
     <td> <?php echo $res['mobile']; ?> </td>
@@ -42,6 +42,8 @@
 }
 ?>
 </table>
+<p>New?  <a href="http://localhost/regisform/regis.php">To register, click here!</a></p>
+<p>Already have an account?  <a href="http://localhost/regisform/login.php">To login, click here!</a></p>
   </div>
 </body>
 </html>

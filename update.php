@@ -64,6 +64,7 @@ if(isset($_POST['submit'])){
      <input type="text" placeholder="Enter Job" name="job" id="t6" value="<?php echo $arrdata['job']; ?>" required> <br><br>
 
       <button type="submit" name="submit">Update</button>
+      <p>  <a href="http://localhost/regisform/view.php">Back</a></p>
     </div>
 </form>
 </body>
